@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+requests
+pytest
+pytest-json-report
+pyyaml
+python-dotenv
+openai
+sqlalchemy
+streamlit
+pandas
+numpy
+scikit-learn
+websockets

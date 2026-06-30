@@ -1,0 +1,1 @@
+["鉴权接口必须在 headers 中携带 Authorization: Bearer mock-token-2024", "参数校验失败(Pydantic)返回 HTTP 422，业务规则错误返回 400，鉴权失败返回 401", "错误响应断言用 contains_fields: [code, message]，不要用 detail", "成功响应断言用 contains_fields: [code, message, data]", "GET 请求参数通过 params 传递", "POST/PUT 请求体通过 json 传递", "边界测试：最小值、最大值、刚好超出、刚好达标", "missing_param 测试时保持其他参数合法", "非鉴权接口不生成 auth_error 类型用例"]
